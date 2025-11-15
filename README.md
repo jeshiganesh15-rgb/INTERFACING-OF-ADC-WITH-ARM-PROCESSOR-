@@ -28,15 +28,30 @@ simple example.c, Uart Receiver interrupt.c, lcd.c, lcd.h
  
 # DIAGRAM:
 
-<img width="923" height="443" alt="image" src="https://github.com/user-attachments/assets/c0045e52-162c-44b8-9d86-a119cc8b754d" />
 
  
  
 # PROGRAM:
+```
+#include"lcd.h" 
+void ADCExp(); 
+int main(void)
+{
+ReceiverInterrupt(); 
+init_lcd();
+lcd_putstring(LINE1, "RAANA ADC DEMO "); 
+ADCExp();
+while(1)
+{
+}
+}
+```
+#Output:
 
 
  
-# RESULTS
+# RESULT:
+Thus, an embedded c program to interface ADC with ARM processor was executed and output was verified successfully
 
 
 
