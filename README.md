@@ -27,6 +27,7 @@ CMSIS core, CMSIS boot, common header files, SYSCON, GPIO.
 simple example.c, Uart Receiver interrupt.c, lcd.c, lcd.h
  
 # DIAGRAM:
+<img width="1031" height="495" alt="image" src="https://github.com/user-attachments/assets/4f397c3b-f8d6-4d2c-9b21-587c3660643b" />
 
 
  
@@ -47,7 +48,7 @@ while(1)
 }
 ```
 #Output:
-
+<img width="682" height="458" alt="image" src="https://github.com/user-attachments/assets/86113704-fbce-4b36-9f0b-351ad1ce01ab" />
 
  
 # RESULT:
